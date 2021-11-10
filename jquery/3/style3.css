@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+}
+
+
+
+#box1{
+    margin-top:10px;
+    margin-left: 10px;
+    width:700px;
+    height:350px;
+    background-color:rgb(12, 196, 12);
+    border:solid 1px black;
+    overflow:hidden;
+  
+}
+
+#box2{
+    width:450px;
+    height:250px;
+    border:solid 1px black;
+    position:fixed;
+    left:50px;
+    top:50px;
+    overflow:hidden;
+}
+
+#box3{
+    width:290px;
+    height:150px;
+    border:solid 1px black;
+    position:relative;
+    left:50px;
+    top:40px;
+    overflow:hidden;
+
+}
+
+button{
+    margin: 4px 12px;
+    padding: 5px;
+}

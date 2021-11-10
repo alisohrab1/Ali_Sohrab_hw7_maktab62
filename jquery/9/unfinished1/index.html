@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style9.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- button and modal -->
+    <button class="createBtn" id="createBtn">Create</button>
+    <!-- The Modal -->
+    <div id="createModal" class="modal">
+      <!-- Modal content -->
+      <div class="modal-content">
+        <span class="createClose">&times;</span>
+        <label>UID:</label><br />
+        <input type="text" id="createUid" /><br />
+        <label>First name:</label><br />
+        <input type="text" id="createFname" /><br />
+        <label>Last name:</label><br />
+        <input type="text" id="createLname" /><br />
+        <label>City:</label><br />
+        <input type="text" id="createCity" /><br />
+        <label>Personal Code</label><br />
+        <input type="text" id="createPcode" /><br />
+        <label>Phone</label><br />
+        <input type="text" id="createPhone" /><br />
+        <label>Position</label><br />
+        <input type="text" id="createPosition" /><br />
+        <button id="createSubmit">Create</button>
+      </div>
+    </div>
+    <!-- update modal -->
+    <div id="updateModal" class="modal">
+      <!-- Modal content -->
+      <div class="modal-content">
+        <span class="updateClose">&times;</span>
+        <label>UID:</label><br />
+        <input type="text" id="updateUid" /><br />
+        <label>First name:</label><br />
+        <input type="text" id="updateFname" /><br />
+        <label>Last name:</label><br />
+        <input type="text" id="updateLname" /><br />
+        <label>City:</label><br />
+        <input type="text" id="updateCity" /><br />
+        <label>Personal Code</label><br />
+        <input type="text" id="updatePcode" /><br />
+        <label>Phone</label><br />
+        <input type="text" id="updatePhone" /><br />
+        <label>Position</label><br />
+        <input type="text" id="updatePosition" /><br />
+        <button id="updateSubmit">Create</button>
+      </div>
+    </div>
+    <!-- table -->
+    <div id="divTable">
+      <table id="myTable">
+        <thead>
+          <tr id="header">
+            <th>Row</th>
+            <th id="uid">UID</th>
+            <th id="firstname">First Name</th>
+            <th id="lastname">Last Name</th>
+            <th id="city">City</th>
+            <th id="personalCode">Personal Code</th>
+            <th id="phone">Phone</th>
+            <th id="position">Position</th>
+            <th id="updateOrDel">Edit</th>
+          </tr>
+        </thead>
+      </table>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="test.js"></script>
+  </body>
+</html>

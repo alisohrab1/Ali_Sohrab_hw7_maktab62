@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 10px;
+  width: 100%;
+  text-align: left;
+  border: 1px solid black;
+  transition: 0.4s;
+  margin-top: 3px;
+}
+
+.panel {
+    padding: 20px 10px;
+    background-color: white;
+    display:none;
+    overflow: hidden;
+}
+
+.hover {
+    background-color:white;
+    background: linear-gradient(0deg, rgba(239,236,130,0.08476894175639005) 0%, rgba(233,194,111,1) 100%);
+}
+
+.icon1:before {
+    content:  "\25B8";
+}
+
+
+.icon2:before {
+    content:  "\25BE";
+}
+

@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.container{
+    position: relative;
+}
+#box1 {
+  background-color: lightslategray;
+  width: 400px;
+  height: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
+#box2 {
+  background-color: white;
+  width: 400px;
+  height: 60px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding-top: 10px;
+}
